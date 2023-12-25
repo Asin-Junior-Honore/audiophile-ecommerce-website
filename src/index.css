@@ -1,0 +1,413 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.border {
+  border-top: 1px solid black;
+}
+
+/* .borderfull {
+  border: 2px solid red;
+} */
+.acessories::before {
+  content: "";
+  position: absolute;
+  background-color: #f1f1f1;
+  height: 110%;
+  width: 180%;
+  z-index: -1;
+  top: 50px;
+  border-radius: 7px;
+  left: -60px;
+}
+.para,
+.itemslinks {
+  text-transform: uppercase;
+  text-align: center;
+}
+.bigs {
+  display: flex;
+  padding-inline: 4.5rem;
+  justify-content: space-around;
+  padding-top: 3.4375rem;
+  padding-bottom: 3.4375rem;
+  border-radius: 0.5rem;
+  background-image: url(/src/assets/pattern-circles.svg);
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-size: cover;
+  background-position: 50% -8.125rem;
+  background-color: #d87d4a;
+  overflow: hidden;
+}
+.words h2 {
+  line-height: 55px;
+}
+.sec1-home {
+  position: relative;
+}
+
+.social {
+  font-size: 25px;
+  cursor: pointer;
+}
+.social:hover {
+  transition: all 250ms ease 0s;
+  color: #d87d4a;
+}
+.footerli:hover {
+  transition: all 250ms ease 0s;
+  color: #d87d4a;
+}
+.itemslinks:hover {
+  transition: all 250ms ease 0s;
+  color: #d87d4a;
+}
+
+.bg-less {
+  border: 1px solid black;
+}
+.sec1-home::after {
+  content: "";
+  position: absolute;
+  background: url(https://audiophile-ecommerce-mbart13.vercel.app/images/home/desktop/image-hero.jpg)
+    center/cover no-repeat;
+  width: 100%;
+  height: 116%;
+  top: -6rem;
+  left: 0px;
+  z-index: -1;
+}
+.sec2-headphone {
+  /* content: "";
+  position: absolute; */
+  background: #191919;
+  /* width: 100%;
+  height: 100%;
+  top: -19rem;
+  left: 0px; */
+  /* z-index: -1; */
+}
+
+.checkout,
+.checkout-pay-btn {
+  display: inline-flex;
+
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  transition: all 250ms ease 0s;
+  user-select: none;
+  position: relative;
+  white-space: nowrap;
+  vertical-align: middle;
+  outline: transparent solid 2px;
+  width: 100%;
+  padding: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.0625rem;
+  font-size: 1.12rem;
+  margin-top: 20px;
+  background: #d87d4a;
+  cursor: pointer;
+}
+
+input:focus {
+  outline-color: #d87d4a;
+  outline-width: 2px;
+  transition: all 0.2s ease 0s;
+}
+/* .orangeradio input:focus {
+    outline-color: #d87d4a;
+    outline-width: 2px;
+    transition: all 0.2s ease 0s;
+  } */
+input {
+  width: 300px;
+  padding: 1rem;
+  border: 1px solid #cfcfcf;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  min-width: 0px;
+  letter-spacing: 0.11rem;
+  font-weight: 200;
+}
+label {
+  display: inline-block;
+  font-size: 0.995rem;
+  padding: 10px 0px;
+}
+
+input[type="radio"].orangeradio {
+  display: none;
+}
+.orangeradio {
+  border: 1px solid #cfcfcf;
+  border-radius: 0.5rem;
+  justify-content: flex-end;
+  width: inherit;
+  padding: 0.5rem 0rem;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.orangeradio input {
+  width: 20px;
+  background-color: orange;
+  padding: 2px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.phone-image {
+  display: none;
+}
+.orangeradio label {
+  margin-left: 10px;
+  cursor: pointer;
+}
+.btnhover:hover {
+  transition: all 250ms ease 0s;
+  background: white;
+  color: black;
+}
+.btnhovertwo:hover {
+  transition: all 250ms ease 0s;
+  background: black;
+  color: white;
+}
+.calc-hover:hover {
+  transition: all 250ms ease 0s;
+  background: #d3d3d3;
+  color: #d87d4a;
+}
+.before::before {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.55);
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.99;
+  z-index: 50;
+}
+.toshow {
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  display: -webkit-box;
+}
+.btnhovernever {
+  background: #d87d4a;
+  opacity: 0.4;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+@media screen and (max-width: 780px) {
+  .gadejet {
+    flex-direction: column;
+    padding: 3rem 9em;
+  }
+  .speaker {
+    margin: 3rem 0rem;
+  }
+  .acessories {
+    width: 160px;
+  }
+  .sec1-home .container {
+    width: 100%;
+    padding-right: 0;
+    text-align: center;
+  }
+  .sec1-home::after {
+    background: url(https://audiophile-ecommerce-mbart13.vercel.app/images/home/mobile/image-hero.jpg)
+      center/cover no-repeat;
+  }
+  .homeb1 h1 {
+    font-size: 2.25rem;
+    line-height: 1.1;
+    letter-spacing: 0.0806rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+  }
+  .homeb1 p {
+    line-height: 1.7;
+    padding-inline: 2.5rem;
+  }
+  .homeb1 p br {
+    content: " ";
+  }
+  .homeb1 p br::after {
+    content: " ";
+  }
+  .bigs {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 0;
+    padding-inline: 2.5rem;
+  }
+  .bigspeaker {
+    padding: 1rem;
+  }
+  label {
+    font-size: 0.75rem;
+  }
+  .words {
+    margin-left: 0;
+  }
+  .words h2 {
+    font-size: 2.25rem;
+    line-height: 1;
+  }
+  .homeheadpara .words p {
+    max-width: 30ch;
+    font-size: 0.9375rem;
+    margin-bottom: 2.58rem;
+    margin-top: 0.58rem;
+  }
+  .words p br {
+    content: " ";
+  }
+  .words p br::after {
+    content: " ";
+  }
+  .bigs2 .words2 {
+    margin-left: 35px;
+    margin-top: -13rem;
+  }
+  .bigs2 .words2 h2 {
+    margin-bottom: 2rem;
+  }
+  .pic-lg {
+    display: none;
+  }
+  .homeearpods {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    padding-inline: 1rem;
+  }
+  .homeearpods div:nth-child(2) {
+    padding-top: 2.5625rem;
+    padding-bottom: 2.5625rem;
+    padding-left: 1.5rem;
+  }
+  .ambassador {
+    padding-inline: 1rem;
+    flex-direction: column;
+  }
+  .ambassador div:nth-child(2) {
+    padding-block: 0.5625rem;
+    text-align: center;
+  }
+  .ambassador div:nth-child(2) h2 {
+    font-size: 1.99rem;
+    margin-bottom: 1.25rem;
+  }
+  .ambassador div:nth-child(2) br {
+    content: " ";
+  }
+  .ambassador div:nth-child(2) br::after {
+    content: " ";
+  }
+  .footer {
+    padding-inline: 1rem;
+  }
+  .footer div:nth-child(1) {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+  .footer div div:nth-child(2) {
+    flex-direction: column;
+  }
+  .footer div div:nth-child(2) br {
+    content: " ";
+  }
+  .footer div div:nth-child(2) br::after {
+    content: " ";
+  }
+  .footer ul {
+    flex-direction: column;
+    padding-top: 1.95rem;
+    text-align: center;
+  }
+
+  .footerli a {
+    line-height: 3;
+  }
+  .hedaphone {
+    margin-top: 4rem;
+  }
+  /* headphone */
+  .hedaphone {
+    flex-direction: column;
+    padding: 3rem 1em;
+  }
+  .para2 {
+    text-align: center;
+  }
+
+  .para2 p br {
+    content: " ";
+  }
+  .para2 p br::after {
+    content: " ";
+  }
+
+  .cashless br {
+    content: " ";
+  }
+  .cashless br::after {
+    content: " ";
+  }
+
+  .product-content p br {
+    content: " ";
+  }
+  .product-content p br::after {
+    content: " ";
+  }
+
+  .sec2-headphone::before {
+    top: 0rem;
+    height: 50%;
+    overflow: hidden;
+  }
+  .sec2-headphone {
+    overflow: hidden;
+  }
+  .productpage,
+  .user-info_checkout,
+  .product-content,
+  .product-gallery,
+  .extras {
+    flex-direction: column;
+    padding: 3rem 1rem;
+  }
+  .user-info_checkout {
+    padding: 0rem 1rem;
+  }
+  .phone-image {
+    display: block;
+    height: auto;
+    margin: 0;
+  }
+  .speaker2 {
+    margin: 0rem;
+  }
+  .final-order-summary {
+    flex-direction: column;
+  }
+}
