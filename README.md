@@ -59,17 +59,6 @@ Follow these steps to get the application up and running on your local machine.
 
    Your application should now be running on `http://localhost:3000`.
 
-## 🖼️ Screenshots
-
-### Home Page
-![Home Page](screenshots/home.png)
-
-### Product Page
-![Product Page](screenshots/product.png)
-
-### Cart Page
-![Cart Page](screenshots/cart.png)
-
 ## 📚 Usage
 
 ### Adding Products to the Cart
@@ -121,9 +110,6 @@ Contributions are welcome! Please fork the repository and create a pull request.
 4. Push to the branch: `git push origin feature-branch`.
 5. Submit a pull request.
 
-## 📄 License
-
-This project is licensed under the MIT License.
 
 ## 📞 Contact
 
