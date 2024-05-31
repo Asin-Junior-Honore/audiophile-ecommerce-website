@@ -122,5 +122,3 @@ If you have any questions, feel free to reach out:
 Happy Shopping! 🛍️
 
 ---
-
-This README covers the key aspects of your application, from its features and technologies to installation and usage instructions. Feel free to customize it further based on your specific requirements and preferences.
