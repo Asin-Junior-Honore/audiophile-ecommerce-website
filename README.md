@@ -81,7 +81,6 @@ Follow these steps to get the application up and running on your local machine.
   - `components/`: Reusable React components.
   - `pages/`: Different pages of the application.
   - `styles/`: CSS and Tailwind CSS configuration.
-  - `utils/`: Utility functions, including LocalStorage handlers.
 
 ### Customizing Styles
 
