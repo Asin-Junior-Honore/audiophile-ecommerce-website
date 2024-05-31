@@ -115,7 +115,7 @@ Contributions are welcome! Please fork the repository and create a pull request.
 If you have any questions, feel free to reach out:
 
 - **Email**: asinhonore823@gmail.com
-- **GitHub**: [yourusername](https://github.com/yourusername)
+- **GitHub**: [Asin Honore](https://github.com/Asin-Junior-Honore)
 
 ---
 
