@@ -52,7 +52,7 @@ Follow these steps to get the application up and running on your local machine.
 3. **Start the development server**
 
    ```bash
-   npm start
+   npm run dev 
    # or
    yarn start
    ```
