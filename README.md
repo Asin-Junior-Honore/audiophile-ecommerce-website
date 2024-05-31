@@ -114,7 +114,7 @@ Contributions are welcome! Please fork the repository and create a pull request.
 
 If you have any questions, feel free to reach out:
 
-- **Email**: yourname@example.com
+- **Email**: asinhonore823@gmail.com
 - **GitHub**: [yourusername](https://github.com/yourusername)
 
 ---
